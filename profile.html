@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>โปรไฟล์ของฉัน - ระบบยืม-คืนอุปกรณ์กีฬา</title>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="brand">
+      <img src="images/LOGO-SSP.png" alt="logo" class="logo-img">
+
+      <div class="brand-text">
+        <p class="th">การยืม-คืนอุปกรณ์กีฬาของกลุ่มสาระการเรียนรู้สุขศึกษาและพลศึกษา</p>
+        <p class="en">Sports Equipment Borrowing and Return Management System</p>
+      </div>
+    </div>
+
+    <div class="profile" id="profileToggle">
+      <div class="avatar">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.9-2.2 4.9-4.9S14.7 2.2 12 2.2 7.1 4.4 7.1 7.1 9.3 12 12 12zm0 2.5c-3.3 0-9.8 1.6-9.8 4.9v2.4h19.6v-2.4c0-3.3-6.5-4.9-9.8-4.9z"/></svg>
+      </div>
+      <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <path d="M6 9l6 6 6-6"/>
+      </svg>
+
+      <div class="profile-menu">
+        <a href="profile.html">โปรไฟล์ของฉัน</a>
+        <a href="account-settings.html">ตั้งค่าบัญชี</a>
+        <a href="contact.html">ติดต่อเรา</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html">หน้าหลัก</a>
+    <a href="equipment.html">รายการอุปกรณ์ทั้งหมด</a>
+    <a href="booking.html">จองอุปกรณ์</a>
+    <a href="history.html">ประวัติการยืม-คืน</a>
+  </nav>
+
+  <main>
+    <div class="profile-layout">
+
+      <aside class="side-menu">
+        <a href="profile.html" class="side-item active">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+          โปรไฟล์ของฉัน
+        </a>
+        <a href="account-settings.html" class="side-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.9 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.9.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.9-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.9V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>
+          ตั้งค่าบัญชี
+        </a>
+        <a href="contact.html" class="side-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.1 9a3 3 0 0 1 5.8 1c0 2-3 2-3 4"/><line x1="12" y1="17" x2="12" y2="17.01"/></svg>
+          ติดต่อเรา
+        </a>
+      </aside>
+
+      <section class="profile-panel">
+        <h2 class="profile-panel-title">ข้อมูลส่วนตัว</h2>
+
+        <div class="profile-body">
+          <div class="profile-photo-block">
+
+            <div class="avatar-placeholder">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 12c2.7 0 4.9-2.2 4.9-4.9S14.7 2.2 12 2.2 7.1 4.4 7.1 7.1 9.3 12 12 12zm0 2.5c-3.3 0-9.8 1.6-9.8 4.9v2.4h19.6v-2.4c0-3.3-6.5-4.9-9.8-4.9z"/></svg>
+            </div>
+
+            <button class="btn-change-photo">เปลี่ยนรูปโปรไฟล์</button>
+          </div>
+
+          <table class="profile-info">
+            <tr>
+              <td class="label">ชื่อ-สกุล</td>
+              <td class="value" id="val-name">-</td>
+            </tr>
+            <tr>
+              <td class="label">รหัสนักเรียน</td>
+              <td class="value" id="val-studentid">-</td>
+            </tr>
+            <tr>
+              <td class="label">ชั้นเรียน</td>
+              <td class="value" id="val-class">-</td>
+            </tr>
+            <tr>
+              <td class="label">อีเมล</td>
+              <td class="value" id="val-email">-</td>
+            </tr>
+            <tr>
+              <td class="label">เบอร์โทรศัพท์</td>
+              <td class="value" id="val-phone">-</td>
+            </tr>
+            <tr>
+              <td class="label">บทบาท</td>
+              <td class="value" id="val-role">-</td>
+            </tr>
+            <tr>
+              <td class="label">วันเกิด</td>
+              <td class="value" id="val-birthday">-</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
